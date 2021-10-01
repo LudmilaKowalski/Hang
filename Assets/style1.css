@@ -1,18 +1,29 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&display=swap');
+
+
 body {
-    background-color: lightskyblue;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: bold;
+    background-image: url(./Images/fond2.jpg);
+    background-size: cover;
+    font-family: 'Grenze Gotisch', cursive;
+    font-style: italic;
     color: linen;
-    display: block;
+    
 }
 
 header {
     background-color: white;
-    margin-top: -19px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
 }
 
 h1 {
-   margin-left: 500px;
+    color: white;
+   margin-left: 540px;
+   font-size: xx-large;
 }
 
 h2 {
@@ -22,37 +33,13 @@ h2 {
     
 }
 
-#instruction {
-    margin-left: 500px;
-    color: black;
-}
-
-#field {
-    background-color: white;
-}
-
-/*.letter {
-    display: inline-block;
-    justify-items: flex-end;
-    padding: 20px;
-}
 
 
-
-#pendu {
-    display: inline-block;
-    justify-items: flex-start;
-}
-*/
-
-#keyboard {
-    float: right;
-}
-
-.letter {
+#btn{
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
+    font-family: 'Grenze Gotisch', cursive; ;
     font-size: 1rem;
     text-align: center;
     color: #fff;
@@ -67,39 +54,40 @@ h2 {
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
 
-.letter:hover {
+#btn:hover {
     background-color: darkblue;
 }
 
-.letter:active {
+#btn:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
-ul {
-    list-style-type: none;
-    }
 
-#champ {
-    margin-left: 520px;
+
+
+#pendu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#inst {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: bold;
-    font-weight: bolder;
-    
-
-}
-
-#mot {
-    margin-left: 520px;
-}
-
-#res {
+#letter {
     color: black;
-    display: flex;
-    flex-direction: row;
-    background-color: white;
+    margin-left: 500px;
+    font-family: 'Grenze Gotisch', cursive;;
+    margin-right: auto;
+}
 
+#word {
+    color: white;
+    font-family: 'Grenze Gotisch', cursive;;
+    margin-left: 560px;
+    margin-right: auto;
+}
+
+#title {
+    color: white;
+    margin-left: 570px;
+    font-size:x-large;
 }

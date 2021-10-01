@@ -11,21 +11,23 @@ const hang = [
 ];
 
 const arr = [
-    "Ado", "Cor","Mai", "Bip","Ski","Atre","Rhum","Thym","Lynx", "jazz", "yack","Banjo","Igloo","Moult","Tyran","Acajou","Azimut","Hochet","Cercle","Faucon","Coccyx","Whisky","Bretzel","Panique","Strophe","Vautour","Clavecin","Logiciel","Toujours","Triangle","Utopique","Aseptiser","Ascension","Klaxonner","Mascarade","Printemps","Tambourin","Xylophone"
+    "ado", "cor","mai", "bip","ski","atre","rhum","thym","lynx", "jazz", "yack","banjo","igloo","moult","tyran","acajou","azimut","hochet", "cercle","faucon","coccyx","whisky","bretzel","panique","strophe","vautour","clavecin","logiciel","toujours","triangle","utopique","aseptiser","ascension","klaxonner","mascarade","printemps","tambourin","xylophone"
 ]
-
+/*
 let rand = arr [Math.floor(Math.random() * arr.length)];
 let randArr = rand.split("");
+*/
 
-console.log(rand)
 
 
+let randword = arr [Math.floor(Math.random() * arr.length)];;
+let randArr = randword.split("");
 let word = new Array(randArr.length);
 for (let a = 0; a < word.length; a++) {
     word[a] = "";
 }
 
-
+console.log(randword)
 let diagramState = 0;
 
 let gameOver = false;
@@ -41,8 +43,10 @@ let diagramSet = () => {
     }
 }
 
+
+
 let check = () => {
-    if (word.join("") == rand) {
+    if (word.join("") == randword) {
         gameOver = true;
         alert("Win!");
     }
