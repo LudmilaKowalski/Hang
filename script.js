@@ -49,10 +49,12 @@ let check = () => {
     if (word.join("") == randword) {
         gameOver = true;
         alert("Win!");
+        location.reload()
     }
     else if (diagramState >= 6) {
         gameOver = true;
         alert("Loose...");
+        location.reload()
     }
 }
 

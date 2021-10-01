@@ -40,6 +40,7 @@ h2 {
     line-height: 2.5;
     padding: 0 20px;
     font-family: 'Grenze Gotisch', cursive; ;
+    font-weight: bolder;
     font-size: 1rem;
     text-align: center;
     color: #fff;
@@ -74,20 +75,25 @@ h2 {
 
 #letter {
     color: black;
-    margin-left: 500px;
+    margin-left: 530px;
     font-family: 'Grenze Gotisch', cursive;;
+    font-size: large;
     margin-right: auto;
 }
 
 #word {
     color: white;
     font-family: 'Grenze Gotisch', cursive;;
+    font-size: xx-large;
     margin-left: 560px;
     margin-right: auto;
+    margin-bottom: -50px;
 }
 
 #title {
     color: white;
-    margin-left: 570px;
+    margin-left: 590px;
     font-size:x-large;
+    text-decoration: underline;
+    
 }
