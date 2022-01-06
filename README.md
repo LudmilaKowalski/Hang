@@ -13,12 +13,12 @@ We used html and Javascript and css to personalize our project.
 
 Here is an exemple of the begin of the game :
 
-![Image](./assets/hang1.png)
+![Image](./Assets/Images/hang1.png)
 
 
 And here the end of a game :
 
-![Image](./assets/hang2.png)
+![Image](./Assets/Images/hang2.png)
 
 
 ## Link 
